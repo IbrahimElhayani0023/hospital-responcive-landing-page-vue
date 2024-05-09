@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-cyan-700 h-screen pt-16 lg:pt-0">
+  <div id="bunner"  class="bg-cyan-700 h-screen pt-16 lg:pt-0">
     <div
       class="container flex flex-col lg:flex-row justify-between items-center h-full"
     >
@@ -10,7 +10,7 @@
         <h3
           class="text-cyan-50 lg:text-7xl text-4xl font-bold text-center lg:text-left font-sans mb-4"
         >
-          Find Your Best Doctor
+          .Find Your Best Doctor
         </h3>
         <form
           class="bg-cyan-50 px-4 py-2 w-[400px] rounded mt-8 ms-4 shadow-xl lg:mt-0"
@@ -45,3 +45,8 @@
 </template>
 
 
+<style scoped>
+#bunner {
+  background-image: url("@/assets/img/footer-bg.png");
+}
+</style>

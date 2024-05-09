@@ -1,5 +1,5 @@
 <template>
-  <div class="container p-5 flex justify-between items-center">
+  <div class="container p-5 flex justify-between items-center flex-col lg:flex-row">
     <h1 class="text-3xl font-bold text-center text-cyan-600 underline">
       Contact Us
     </h1>
