@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container{
+    @apply lg:w-[78%] m-auto md:w-[90%] sm:w-[95%]
+}
